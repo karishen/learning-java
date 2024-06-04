@@ -11,7 +11,7 @@ public class PlayWithForLoops {
 
         //Print all even numbers from 2 to 20
 
-        for (int i = 2; 1 <= 20; i += 2) {
+        for (int i = 2; i <= 20; i += 2) {
             System.out.println(i);
         }
 
@@ -21,7 +21,7 @@ public class PlayWithForLoops {
         for (int i = 1; i <= 10; i++) {
             sum = sum + i;
         }
-        System.out.println("Sum: " + sum);
+        System.out.println("Sum of numbers: " + sum);
 
         int[] numbers = {2, 10, 13, 15, 48, 90};
         for (int i = 0; i < numbers.length; i++) {
